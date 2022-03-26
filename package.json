@@ -1,0 +1,45 @@
+{
+  "name": "TestInmobiliaria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main/server/app.ts",
+    "dev": "nodemon dist/app.js",
+    "ts-dev": "tsnd --transpile-only --respawn  src/main/server/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romarioVortex/TestInmobiliaria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romarioVortex/TestInmobiliaria/issues"
+  },
+  "homepage": "https://github.com/romarioVortex/TestInmobiliaria#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "ts-node-dev": "^1.1.8",
+    "tslint": "^6.1.3",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "cors": "^2.8.5",
+    "defaults": "^1.0.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "fast-glob": "^3.2.11",
+    "http-status": "^1.5.0",
+    "morgan": "^1.10.0",
+    "node-dependency-injection": "^2.7.3",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0"
+  }
+}
